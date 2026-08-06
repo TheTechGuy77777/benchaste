@@ -18,8 +18,8 @@
                     </svg>
                 </div>
                 <span
-                    style="font-family: var(--font-heading); font-weight: 800; font-size: 1.2rem; color: white;">Green<span
-                        style="color: var(--color-gold);">Scape</span></span>
+                    style="font-family: var(--font-heading); font-weight: 800; font-size: 1.2rem; color: white;">Ben<span
+                        style="color: var(--color-gold);">Chaste</span></span>
             </a>
             <p style="font-size: 0.9rem; line-height: 1.8; margin-bottom: 28px; max-width: 280px;">
                 Transforming outdoor spaces into living masterpieces since 2012. Premium landscaping for discerning
@@ -54,7 +54,7 @@
                             d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.77 1.52V6.75a4.85 4.85 0 0 1-1-.06z" />
                     </svg>
                 </a>
-                <a href="https://wa.me/2348000000000"
+                <a href="https://wa.me/2348068898563"
                     style="width: 40px; height: 40px; border-radius: 8px; background: rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.6); text-decoration: none; transition: var(--transition);"
                     onmouseover="this.style.background='#25D366'; this.style.color='white'"
                     onmouseout="this.style.background='rgba(255,255,255,0.08)'; this.style.color='rgba(255,255,255,0.6)'">
@@ -111,7 +111,9 @@
                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                         <circle cx="12" cy="10" r="3" />
                     </svg>
-                    <span style="font-size: 0.875rem; line-height: 1.6;">123 Garden Avenue,<br>Lagos, Nigeria</span>
+                    <span style="font-size: 0.875rem; line-height: 1.6;">No 1 Benchaste Landscape, Maitama, Abuja
+                        900271,
+                        <br>Federal Capital Territory</span>
                 </div>
                 <div style="display: flex; gap: 10px; align-items: center;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)"
@@ -119,9 +121,8 @@
                         <path
                             d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.86-.86a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.5 16z" />
                     </svg>
-                    <a href="tel:+2348000000000"
-                        style="font-size: 0.875rem; color: rgba(255,255,255,0.55); text-decoration: none;">+234 800 000
-                        0000</a>
+                    <a href="tel:+2348068898563"
+                        style="font-size: 0.875rem; color: rgba(255,255,255,0.55); text-decoration: none;">+2348068898563</a>
                 </div>
                 <div style="display: flex; gap: 10px; align-items: center;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)"

@@ -34,9 +34,8 @@
                              <div
                                  style="font-family: var(--font-heading); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #999; margin-bottom: 4px;">
                                  Phone</div>
-                             <a href="tel:+2348000000000"
-                                 style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600; color: var(--color-charcoal); text-decoration: none;">+234
-                                 800 000 0000</a>
+                             <a href="tel:+2348068898563"
+                                 style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600; color: var(--color-charcoal); text-decoration: none;">+2348068898563</a>
                          </div>
                      </div>
 
@@ -76,7 +75,7 @@
                                  Address</div>
                              <div
                                  style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600; color: var(--color-charcoal);">
-                                 123 Garden Avenue, Lagos, Nigeria</div>
+                                 No 1 Benchaste Landscape, Maitama, Abuja 900271, Federal Capital Territory</div>
                          </div>
                      </div>
 
@@ -105,9 +104,9 @@
                  {{-- Map --}}
                  <div style="border-radius: 16px; overflow: hidden; height: 240px; box-shadow: var(--shadow-card);">
                      <iframe
-                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.721!2d3.3792!3d6.5244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMzEnMjcuOCJOIDPCsDIyJzQ1LjEiRQ!5e0!3m2!1sen!2sng!4v1620000000000!5m2!1sen!2sng"
-                         width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy">
-                     </iframe>
+                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.762481482171!2d7.493572799999999!3d9.0853893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b8e916a6dfd%3A0xe6ca5a29a3df5177!2sBenchaste%20universal%20concept%20limited!5e0!3m2!1sen!2sng!4v1781505497537!5m2!1sen!2sng"
+                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                  </div>
 
              </div>
@@ -204,5 +203,3 @@
          </div>
      </div>
  </section>
-
-

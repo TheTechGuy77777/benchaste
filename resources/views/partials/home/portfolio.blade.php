@@ -32,9 +32,9 @@
                  </div>
                  {{-- After Image --}}
                  <div class="after-layer"
-                     style="position: absolute; inset: 0; z-index: 2; width: 50%; overflow: hidden; transition: none;">
+                     style="position: absolute; top: 0; left: 0; bottom: 0; z-index: 2; width: 50%; overflow: hidden;">
                      <img src="{{ asset('images/before-after/after-1.jpg') }}" alt="After"
-                         style="width: 100vw; max-width: 100vw; height: 100%; object-fit: cover;"
+                         style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;"
                          onerror="this.parentElement.style.background='linear-gradient(135deg, #1F3B2D, #A3B18A)'; this.style.display='none'">
                      <div
                          style="position: absolute; top: 16px; left: 16px; background: var(--color-gold); color: white; font-family: var(--font-heading); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 14px; border-radius: 100px;">
@@ -76,9 +76,9 @@
                          Before</div>
                  </div>
                  <div class="after-layer"
-                     style="position: absolute; inset: 0; z-index: 2; width: 50%; overflow: hidden;">
+                     style="position: absolute; top: 0; left: 0; bottom: 0; z-index: 2; width: 50%; overflow: hidden;">
                      <img src="{{ asset('images/before-after/after-2.jpg') }}" alt="After"
-                         style="width: 100vw; max-width: 100vw; height: 100%; object-fit: cover;"
+                         style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;"
                          onerror="this.parentElement.style.background='linear-gradient(135deg, #2d5a3d, #6B7C4A)'; this.style.display='none'">
                      <div
                          style="position: absolute; top: 16px; left: 16px; background: var(--color-gold); color: white; font-family: var(--font-heading); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 14px; border-radius: 100px;">
@@ -118,9 +118,9 @@
                          Before</div>
                  </div>
                  <div class="after-layer"
-                     style="position: absolute; inset: 0; z-index: 2; width: 50%; overflow: hidden;">
+                     style="position: absolute; top: 0; left: 0; bottom: 0; z-index: 2; width: 50%; overflow: hidden;">
                      <img src="{{ asset('images/before-after/after-3.jpg') }}" alt="After"
-                         style="width: 100vw; max-width: 100vw; height: 100%; object-fit: cover;"
+                         style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;"
                          onerror="this.parentElement.style.background='linear-gradient(135deg, #1F3B2D, #A3B18A)'; this.style.display='none'">
                      <div
                          style="position: absolute; top: 16px; left: 16px; background: var(--color-gold); color: white; font-family: var(--font-heading); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; padding: 6px 14px; border-radius: 100px;">
@@ -164,7 +164,7 @@
                      Projects That<br>Speak For Themselves
                  </h2>
              </div>
-             <a href="#contact" class="btn-primary reveal reveal-delay-2">View All Projects</a>
+             <a href="#portfolio" class="btn-primary reveal reveal-delay-2">View All Projects</a>
          </div>
 
          {{-- Filter Tabs --}}
@@ -336,10 +336,31 @@
                  </div>
              </div>
 
+             {{-- <div class="portfolio-item reveal" data-category="garden"
+                 style="border-radius: 12px; overflow: hidden; position: relative; aspect-ratio: 4/3; cursor: pointer; grid-column: auto; grid-row: auto;">
+                 <img src="{{ asset('images/portfolio/project-7.jpg') }}" alt="Football Pitch"
+                     style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease;"
+                     class="portfolio-img"
+                     onerror="this.parentElement.style.background='linear-gradient(135deg, #1a3a1a, #4a7a4a)'; this.style.display='none'">
+                 <div class="portfolio-overlay"
+                     style="position: absolute; inset: 0; background: rgba(31,59,45,0.85); opacity: 0; transition: opacity 0.3s ease; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; text-align: center;">
+                     <div
+                         style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 8px;">
+                         Modern Garden Oasis</div>
+                     <div
+                         style="font-family: var(--font-body); font-size: 0.85rem; color: rgba(255,255,255,0.75); margin-bottom: 16px;">
+                         Garden Design • Residential</div>
+                     <div
+                         style="width: 36px; height: 36px; border: 2px solid var(--color-gold); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                             stroke="var(--color-gold)" stroke-width="2.5">
+                             <line x1="12" y1="5" x2="12" y2="19" />
+                             <line x1="5" y1="12" x2="19" y2="12" />
+                         </svg>
+                     </div>
+                 </div>
+             </div> --}}
+
          </div>
      </div>
  </section>
-
-
-
-

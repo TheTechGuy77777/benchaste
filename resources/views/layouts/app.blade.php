@@ -20,7 +20,7 @@
     @include('partials.footer')
 
     {{-- Floating WhatsApp Button --}}
-    <a href="https://wa.me/2348000000000" target="_blank" rel="noopener" title="Chat on WhatsApp"
+    <a href="https://wa.me/2348068898563" target="_blank" rel="noopener" title="Chat on WhatsApp"
         style="
            position: fixed; bottom: 28px; right: 28px; z-index: 9999;
            width: 58px; height: 58px; border-radius: 50%;

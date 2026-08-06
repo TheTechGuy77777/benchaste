@@ -127,7 +127,8 @@
             <a href="#about" class="nav-link">About</a>
             <a href="#portfolio" class="nav-link">Portfolio</a>
             <a href="#testimonials" class="nav-link">Reviews</a>
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
+            <a href="#contact" class="nav-link">Contact Us</a>
         </nav>
 
         {{-- CTA + Hamburger --}}
@@ -161,10 +162,9 @@
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Portfolio</a>
         <a href="#testimonials" class="nav-link"
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Reviews</a>
-        <a href="#shop" class="nav-link"
-            style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Reviews</a>
+        <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link" style="padding: 12px 0;">Contact Us</a>
 
-        <a href="#contact" class="nav-link" style="padding: 12px 0;">Contact</a>
         <a href="#contact" class="btn-gold" style="margin-top: 16px; text-align: center; justify-content: center;">Book
             Consultation</a>
     </div>

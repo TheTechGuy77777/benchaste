@@ -97,22 +97,52 @@ document.querySelectorAll('[id^="ba-card-"]').forEach((card) => {
 });
 
 // ============ PORTFOLIO FILTER ============
-function filterPortfolio(category, btn) {
+window.filterPortfolio = function (category, btn) {
     document
         .querySelectorAll(".filter-btn")
         .forEach((b) => b.classList.remove("active"));
     btn.classList.add("active");
-    document.querySelectorAll(".portfolio-item").forEach((item) => {
-        if (category === "all" || item.dataset.category === category) {
+
+    const grid = document.getElementById("portfolio-grid");
+    const items = document.querySelectorAll(".portfolio-item");
+
+    if (category === "all") {
+        // Restore original masonry layout
+        grid.style.gridTemplateColumns = "repeat(3, 1fr)";
+        const configs = [
+            { col: "1", row: "1", ratio: "4/3" },
+            { col: "2", row: "1 / span 2", ratio: "unset" },
+            { col: "3", row: "1", ratio: "4/3" },
+            { col: "1", row: "2", ratio: "4/3" },
+            { col: "3", row: "2", ratio: "4/3" },
+            { col: "1 / span 3", row: "3", ratio: "21/9" },
+        ];
+        items.forEach((item, i) => {
             item.style.display = "block";
-        } else {
-            item.style.display = "none";
-        }
-    });
-}
+            item.style.gridColumn = configs[i].col;
+            item.style.gridRow = configs[i].row;
+            item.style.aspectRatio = configs[i].ratio;
+        });
+    } else {
+        // Switch to simple auto grid for filtered view
+        grid.style.gridTemplateColumns = "repeat(3, 1fr)";
+        items.forEach((item) => {
+            if (item.dataset.category === category) {
+                item.style.display = "block";
+                item.style.gridColumn = "auto";
+                item.style.gridRow = "auto";
+                item.style.aspectRatio = "4/3";
+            } else {
+                item.style.display = "none";
+                item.style.gridColumn = "auto";
+                item.style.gridRow = "auto";
+            }
+        });
+    }
+};
 
 // ============ SHOP FILTER ============
-function filterShop(category, btn) {
+window.filterShop = function (category, btn) {
     document
         .querySelectorAll(".filter-btn")
         .forEach((b) => b.classList.remove("active"));
@@ -124,4 +154,4 @@ function filterShop(category, btn) {
             item.style.display = "none";
         }
     });
-}
+};
