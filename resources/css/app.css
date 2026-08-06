@@ -385,6 +385,18 @@ h6 {
     }
 }
 
-* {
-    outline: 1px solid red;
+.contact-grid {
+    grid-template-columns: 1fr !important;
+}
+
+@media (min-width: 769px) {
+    .contact-grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 24px !important;
+    }
 }

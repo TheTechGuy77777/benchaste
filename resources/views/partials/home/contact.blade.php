@@ -12,7 +12,8 @@
              </p>
          </div>
 
-         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start;">
+         <div class="contact-grid"
+             style="display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start;">
 
              {{-- Left: Contact Info --}}
              <div class="reveal">
@@ -113,7 +114,7 @@
 
              {{-- Right: Contact Form --}}
              <div class="reveal reveal-delay-1">
-                 <form action="#" method="POST"
+                 <form action="#" method="POST" class="contact-form"
                      style="background: var(--color-beige); border-radius: 20px; padding: 48px;">
                      @csrf
 
