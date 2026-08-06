@@ -1,8 +1,30 @@
+<style>
+    @media (max-width: 768px) {
+        footer {
+            overflow-x: hidden;
+        }
+
+        footer>div:first-child {
+            grid-template-columns: 1fr !important;
+            gap: 40px !important;
+            width: 100%;
+        }
+    }
+</style>
+
+
 <footer style="background: var(--color-charcoal); color: rgba(255,255,255,0.6); font-family: var(--font-body);">
 
     {{-- Main Footer --}}
     <div
-        style="max-width: 1280px; margin: 0 auto; padding: 80px 24px 48px; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px;">
+        style="
+max-width:1280px;
+margin:0 auto;
+padding:80px 24px 48px;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:48px;
+">
 
         {{-- Brand --}}
         <div>
@@ -143,7 +165,7 @@
         <div
             style="max-width: 1280px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
             <p style="font-size: 0.85rem;">&copy; {{ date('Y') }} GreenScape Landscaping. All rights reserved.</p>
-            <div style="display: flex; gap: 24px;">
+            <div style="display: flex; gap: 24px; flex-wrap: wrap;">
                 <a href="#"
                     style="font-size: 0.85rem; color: rgba(255,255,255,0.4); text-decoration: none; transition: var(--transition);"
                     onmouseover="this.style.color='var(--color-gold)'"

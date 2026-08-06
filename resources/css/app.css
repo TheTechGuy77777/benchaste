@@ -2,6 +2,11 @@
 
 @import "tailwindcss";
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 :root {
     --color-forest: #1f3b2d;
     --color-forest-dark: #162a20;
