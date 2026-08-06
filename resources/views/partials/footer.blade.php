@@ -88,7 +88,6 @@ gap:48px;
 
                 </a>
             </div>
-            npm
         </div>
 
         {{-- Services --}}
