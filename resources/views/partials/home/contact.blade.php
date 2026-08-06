@@ -55,8 +55,8 @@
                              <div
                                  style="font-family: var(--font-heading); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #999; margin-bottom: 4px;">
                                  Email</div>
-                             <a href="mailto:info@greenscape.com"
-                                 style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600; color: var(--color-charcoal); text-decoration: none;">info@greenscape.com</a>
+                             <a href="benchaste2green@gmail.com"
+                                 style="font-family: var(--font-heading); font-size: 1.05rem; font-weight: 600; color: var(--color-charcoal); text-decoration: none;">benchaste2green@gmail.com</a>
                          </div>
                      </div>
 
