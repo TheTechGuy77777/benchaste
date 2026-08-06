@@ -385,6 +385,8 @@ h6 {
     }
 }
 
+/* ============ CONTACT MOBILE FIX ============ */
+
 .contact-grid {
     grid-template-columns: 1fr !important;
 }
@@ -395,8 +397,31 @@ h6 {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .contact-form {
         padding: 24px !important;
     }
+
+    .name-fields {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.contact-grid div {
+    min-width: 0;
+}
+
+.contact-grid a,
+.contact-grid div {
+    overflow-wrap: break-word;
+}
+
+/* Prevent horizontal overflow */
+img,
+iframe,
+input,
+textarea,
+select,
+button {
+    max-width: 100%;
 }

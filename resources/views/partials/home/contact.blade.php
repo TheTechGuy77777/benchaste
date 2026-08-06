@@ -106,19 +106,19 @@
                  <div style="border-radius: 16px; overflow: hidden; height: 240px; box-shadow: var(--shadow-card);">
                      <iframe
                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.762481482171!2d7.493572799999999!3d9.0853893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0b8e916a6dfd%3A0xe6ca5a29a3df5177!2sBenchaste%20universal%20concept%20limited!5e0!3m2!1sen!2sng!4v1781505497537!5m2!1sen!2sng"
-                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         width="100%" height="240" style="border:0; display:block;" allowfullscreen=""
+                         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                  </div>
 
              </div>
 
              {{-- Right: Contact Form --}}
              <div class="reveal reveal-delay-1">
-                 <form action="#" method="POST" class="contact-form"
-                     style="background: var(--color-beige); border-radius: 20px; padding: 48px;">
+                 <form action="#" method="POST" class="contact-form">
                      @csrf
 
-                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                     <div class="name-fields"
+                         style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
                          <div>
                              <label
                                  style="font-family: var(--font-heading); font-size: 0.82rem; font-weight: 600; color: var(--color-charcoal); letter-spacing: 0.05em; display: block; margin-bottom: 8px;">First
