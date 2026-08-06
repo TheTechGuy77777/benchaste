@@ -384,3 +384,7 @@ h6 {
         grid-template-columns: 1fr !important;
     }
 }
+
+* {
+    outline: 1px solid red;
+}

@@ -153,7 +153,7 @@ gap:48px;
                         <polyline points="22,6 12,13 2,6" />
                     </svg>
                     <a href="mailto:info@greenscape.com"
-                        style="font-size: 0.875rem; color: rgba(255,255,255,0.55); text-decoration: none;">info@greenscape.com</a>
+                        style="font-size: 0.875rem; color: rgba(255,255,255,0.55); text-decoration: none;">benchaste2green@gmail.com</a>
                 </div>
             </div>
         </div>
@@ -164,7 +164,7 @@ gap:48px;
     <div style="border-top: 1px solid rgba(255,255,255,0.08); padding: 24px;">
         <div
             style="max-width: 1280px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
-            <p style="font-size: 0.85rem;">&copy; {{ date('Y') }} GreenScape Landscaping. All rights reserved.</p>
+            <p style="font-size: 0.85rem;">&copy; {{ date('Y') }} Benchaste Landscaping. All rights reserved.</p>
             <div style="display: flex; gap: 24px; flex-wrap: wrap;">
                 <a href="#"
                     style="font-size: 0.85rem; color: rgba(255,255,255,0.4); text-decoration: none; transition: var(--transition);"
