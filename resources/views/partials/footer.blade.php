@@ -44,7 +44,7 @@ gap:48px;
                         style="color: var(--color-gold);">Chaste</span></span>
             </a>
             <p style="font-size: 0.9rem; line-height: 1.8; margin-bottom: 28px; max-width: 280px;">
-                Transforming outdoor spaces into living masterpieces since 2012. Premium landscaping for discerning
+                Transforming outdoor spaces into living masterpieces since 2008. Premium landscaping for discerning
                 clients across Nigeria.
             </p>
             {{-- Social links --}}
