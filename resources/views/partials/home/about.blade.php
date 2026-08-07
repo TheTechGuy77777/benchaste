@@ -45,7 +45,7 @@
                 ">
                      <div
                          style="font-family: var(--font-heading); font-size: 2.2rem; font-weight: 900; color: var(--color-gold); line-height: 1;">
-                         12+</div>
+                         18+</div>
                      <div
                          style="font-family: var(--font-body); font-size: 0.75rem; color: rgba(255,255,255,0.7); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 4px;">
                          Years of<br>Excellence</div>
@@ -87,7 +87,7 @@
                  </h2>
 
                  <p class="section-sub reveal reveal-delay-2" style="margin-bottom: 24px;">
-                     Founded in 2012, GreenScape has grown from a small local team into one of the region's most trusted
+                     Founded in 2008, BenChaste has grown from a small local team into one of the region's most trusted
                      names in premium outdoor design. We combine horticultural expertise with architectural precision to
                      deliver landscapes that are as functional as they are beautiful.
                  </p>
@@ -234,7 +234,7 @@
                      Industry Experience</div>
                  <div
                      style="font-family: var(--font-body); font-size: 0.8rem; color: rgba(255,255,255,0.5); margin-top: 4px;">
-                     Trusted since 2012</div>
+                     Trusted since 2008</div>
              </div>
          </div>
 

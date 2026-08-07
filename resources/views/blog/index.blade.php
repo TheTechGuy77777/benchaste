@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('title', 'Blog — GreenScape Landscaping')
-@section('meta_description', 'Expert landscaping tips, garden design ideas, and outdoor living inspiration from
+@section('meta_description',
+    'Expert landscaping tips, garden design ideas, and outdoor living inspiration from
     GreenScape.')
 
 @section('content')
@@ -13,7 +14,7 @@
             Landscaping Tips &<br>Garden Inspiration
         </h1>
         <p class="section-sub reveal reveal-delay-2 light" style="text-align: center; margin: 16px auto 0;">
-            Expert advice on lawn care, garden design, and outdoor living from the GreenScape team.
+            Expert advice on lawn care, garden design, and outdoor living from the Benchaste team.
         </p>
     </section>
 

@@ -5,7 +5,7 @@
           <div style="text-align: center; margin-bottom: 72px;">
               <div class="section-label reveal" style="justify-content: center;">Why Choose Us</div>
               <h2 class="section-heading reveal reveal-delay-1" style="text-align: center;">
-                  The GreenScape<br>Difference
+                  The BenChaste<br>Difference
               </h2>
               <p class="section-sub reveal reveal-delay-2" style="text-align: center; margin: 0 auto;">
                   We don't just meet expectations — we set new ones. Here's what makes us the preferred choice for

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', ($post->meta_title ?: $post->title) . ' — GreenScape Blog')
+@section('title', ($post->meta_title ?: $post->title) . ' — BenChaste Blog')
 @section('meta_description', $post->meta_description ?: $post->excerpt)
 
 @section('content')
@@ -22,7 +22,6 @@
         </div>
     </section>
 
-    {{-- Featured Image --}}
     {{-- Featured Image --}}
     @if ($post->featured_image)
         <div style="max-width: 1000px; margin: -40px auto 0; padding: 0 24px; position: relative; z-index: 2;">

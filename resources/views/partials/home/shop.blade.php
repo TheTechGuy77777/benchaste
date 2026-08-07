@@ -138,7 +138,7 @@
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div
                             style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; color: var(--color-forest);">
-                            ₦1,500</div>
+                            ₦5000</div>
                         <a href="https://wa.me/2348068898563?text=Hi, I'm interested in the Tropical Flower Seedlings"
                             target="_blank"
                             style="display: inline-flex; align-items: center; gap: 6px; background: #25D366; color: white; font-family: var(--font-heading); font-size: 0.78rem; font-weight: 600; padding: 8px 14px; border-radius: 6px; text-decoration: none; transition: var(--transition);"
@@ -214,7 +214,7 @@
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div
                             style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; color: var(--color-forest);">
-                            ₦12,000</div>
+                            ₦96,500</div>
                         <a href="https://wa.me/2348068898563?text=Hi, I'm interested in the Professional Tool Set"
                             target="_blank"
                             style="display: inline-flex; align-items: center; gap: 6px; background: #25D366; color: white; font-family: var(--font-heading); font-size: 0.78rem; font-weight: 600; padding: 8px 14px; border-radius: 6px; text-decoration: none; transition: var(--transition);"
@@ -257,7 +257,7 @@
                         <div>
                             <div
                                 style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; color: var(--color-forest);">
-                                ₦8,500</div>
+                                ₦13,500</div>
                             <div style="font-family: var(--font-body); font-size: 0.72rem; color: #aaa;">per sqm</div>
                         </div>
                         <a href="https://wa.me/2348068898563?text=Hi, I'm interested in the Premium Artificial Turf"
@@ -297,7 +297,7 @@
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div
                             style="font-family: var(--font-heading); font-size: 1.1rem; font-weight: 800; color: var(--color-forest);">
-                            ₦85,000</div>
+                            ₦1,500,000</div>
                         <a href="https://wa.me/2348068898563?text=Hi, I'm interested in the Rattan Garden Set"
                             target="_blank"
                             style="display: inline-flex; align-items: center; gap: 6px; background: #25D366; color: white; font-family: var(--font-heading); font-size: 0.78rem; font-weight: 600; padding: 8px 14px; border-radius: 6px; text-decoration: none; transition: var(--transition);"

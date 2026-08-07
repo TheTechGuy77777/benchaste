@@ -40,7 +40,7 @@
                  </div>
                  <p
                      style="font-family: var(--font-body); font-size: 0.95rem; color: #555; line-height: 1.8; font-style: italic; flex: 1;">
-                     "GreenScape completely transformed our backyard into a paradise. The attention to detail was
+                     "BenChaste completely transformed our backyard into a paradise. The attention to detail was
                      incredible — every plant, every stone was placed with purpose. We couldn't be happier!"
                  </p>
                  <div
@@ -130,7 +130,7 @@
                  </div>
                  <p
                      style="font-family: var(--font-body); font-size: 0.95rem; color: #555; line-height: 1.8; font-style: italic; flex: 1;">
-                     "Our sitout area is now the best part of our home. GreenScape designed a pergola and garden that
+                     "Our sitout area is now the best part of our home. BenChaste designed a pergola and garden that
                      feels like a luxury resort. Professional team, amazing results."
                  </p>
                  <div
@@ -175,7 +175,7 @@
                  </div>
                  <p
                      style="font-family: var(--font-body); font-size: 0.95rem; color: #555; line-height: 1.8; font-style: italic; flex: 1;">
-                     "From the initial consultation to the final walkthrough, GreenScape was professional every step of
+                     "From the initial consultation to the final walkthrough, BenChaste was professional every step of
                      the way. Our garden has never looked this beautiful. Highly recommended!"
                  </p>
                  <div
@@ -265,7 +265,7 @@
                  </div>
                  <p
                      style="font-family: var(--font-body); font-size: 0.95rem; color: #555; line-height: 1.8; font-style: italic; flex: 1;">
-                     "We hired GreenScape for our hotel grounds and the result was breathtaking. Guests constantly
+                     "We hired BenChaste for our hotel grounds and the result was breathtaking. Guests constantly
                      compliment the gardens. Their team is highly skilled, reliable and truly passionate about their
                      craft."
                  </p>
