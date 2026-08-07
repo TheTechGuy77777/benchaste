@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', ($post->meta_title ?: $post->title) . ' — BenChaste Blog')
+@section('title', ($post->meta_title ?: $post->title) . ' — GreenScape Blog')
 @section('meta_description', $post->meta_description ?: $post->excerpt)
 
 @section('content')
