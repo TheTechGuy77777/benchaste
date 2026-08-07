@@ -123,12 +123,12 @@
 
         {{-- Desktop Nav --}}
         <nav class="desktop-nav" style="display: flex; align-items: center; gap: 36px;">
-            <a href="#services" class="nav-link">Services</a>
-            <a href="#about" class="nav-link">About</a>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-            <a href="#testimonials" class="nav-link">Reviews</a>
+            <a href="{{ route('home') }}#services" class="nav-link">Services</a>
+            <a href="{{ route('home') }}#about" class="nav-link">About</a>
+            <a href="{{ route('home') }}#portfolio" class="nav-link">Portfolio</a>
+            <a href="{{ route('home') }}#testimonials" class="nav-link">Reviews</a>
             <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
-            <a href="#contact" class="nav-link">Contact Us</a>
+            <a href="{{ route('home') }}#contact" class="nav-link">Contact Us</a>
         </nav>
 
         {{-- CTA + Hamburger --}}
@@ -154,18 +154,20 @@
     border-top: 1px solid rgba(255,255,255,0.1);
     margin-top: 12px;
 ">
-        <a href="#services" class="nav-link"
+        <a href="{{ route('home') }}#services" class="nav-link"
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Services</a>
-        <a href="#about" class="nav-link"
+        <a href="{{ route('home') }}#about" class="nav-link"
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">About</a>
-        <a href="#portfolio" class="nav-link"
+        <a href="{{ route('home') }}#portfolio" class="nav-link"
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Portfolio</a>
-        <a href="#testimonials" class="nav-link"
+        <a href="{{ route('home') }}#testimonials" class="nav-link"
             style="padding: 12px 0; border-bottom: 1px solid rgba(255,255,255,0.08);">Reviews</a>
         <a href="{{ route('blog.index') }}" class="nav-link">Blog</a>
-        <a href="#contact" class="nav-link" style="padding: 12px 0;">Contact Us</a>
+        <a href="{{ route('home') }}#contact" class="nav-link" style="padding: 12px 0;">Contact Us</a>
 
-        <a href="#contact" class="btn-gold" style="margin-top: 16px; text-align: center; justify-content: center;">Book
-            Consultation</a>
+        <a href="{{ route('home') }}#contact" class="btn-gold"
+            style="margin-top: 16px; text-align: center; justify-content: center;">
+            Book Consultation
+        </a>
     </div>
 </header>
