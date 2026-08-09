@@ -618,7 +618,7 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    #about .reveal[style*="grid-template-columns: repeat(4"] {
+    .stats-grid {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 24px !important;
         padding: 32px 16px !important;

@@ -177,7 +177,7 @@
          </div>
 
          {{-- Stats Row --}}
-         <div class="reveal"
+         <div class="reveal stats-grid"
              style="
     margin-top: 100px;
     background: var(--color-forest);
