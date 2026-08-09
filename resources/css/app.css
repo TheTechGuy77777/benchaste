@@ -617,7 +617,7 @@ html, body {
     }
 }
 
-.stats-grid {
+/* .stats-grid {
     grid-template-columns: repeat(4, 1fr);
 }
 
@@ -628,4 +628,4 @@ html, body {
         padding: 32px 16px !important;
         margin-top: 48px !important;
     }
-}
+} */

@@ -177,6 +177,21 @@
          </div>
 
          {{-- Stats Row --}}
+
+         <style>
+             .stats-grid {
+                 grid-template-columns: repeat(4, 1fr) !important;
+             }
+
+             @media (max-width: 768px) {
+                 .stats-grid {
+                     grid-template-columns: repeat(2, 1fr) !important;
+                     padding: 32px 16px !important;
+                     margin-top: 48px !important;
+                     gap: 16px !important;
+                 }
+             }
+         </style>
          <div class="reveal stats-grid"
              style="
     margin-top: 100px;
