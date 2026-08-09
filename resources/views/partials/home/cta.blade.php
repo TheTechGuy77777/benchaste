@@ -20,7 +20,7 @@
          </h2>
          <p class="reveal reveal-delay-2"
              style="font-family: var(--font-body); font-size: 1.05rem; color: rgba(255,255,255,0.7); line-height: 1.7; margin-bottom: 40px;">
-             Join hundreds of happy clients who trusted GreenScape to create their dream outdoor environment. Your free
+             Join hundreds of happy clients who trusted Benchaste to create their dream outdoor environment. Your free
              consultation is just one click away.
          </p>
          <div class="reveal reveal-delay-3"
