@@ -179,15 +179,16 @@
          {{-- Stats Row --}}
          <div class="reveal"
              style="
-            margin-top: 100px;
-            background: var(--color-forest);
-            border-radius: 20px;
-            padding: 48px 40px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 40px;
-            text-align: center;
-        ">
+    margin-top: 100px;
+    background: var(--color-forest);
+    border-radius: 20px;
+    padding: 48px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    text-align: center;
+    overflow: hidden;
+">
              <div>
                  <div
                      style="font-family: var(--font-heading); font-size: 2.8rem; font-weight: 900; color: var(--color-gold);">

@@ -138,7 +138,7 @@
             <div style="text-align: center;">
                 <div
                     style="font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: var(--color-gold);">
-                    <span data-counter="12" data-suffix=" Yrs">0 Yrs</span>
+                    <span data-counter="18" data-suffix=" Yrs">0 Yrs</span>
                 </div>
                 <div
                     style="font-family: var(--font-body); font-size: 0.8rem; color: rgba(255,255,255,0.55); letter-spacing: 0.05em; text-transform: uppercase; margin-top: 4px;">
