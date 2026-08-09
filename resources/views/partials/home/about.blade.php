@@ -184,7 +184,6 @@
     border-radius: 20px;
     padding: 48px 24px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     text-align: center;
     overflow: hidden;
