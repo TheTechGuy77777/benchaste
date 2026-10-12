@@ -87,9 +87,12 @@
                  </h2>
 
                  <p class="section-sub reveal reveal-delay-2" style="margin-bottom: 24px;">
-                     Founded in 2008, BenChaste has grown from a small local team into one of the region's most trusted
-                     names in premium outdoor design. We combine horticultural expertise with architectural precision to
-                     deliver landscapes that are as functional as they are beautiful.
+                     Founded in 2008, BenChaste has grown from a dedicated local team into a trusted name in premium
+                     outdoor design and landscaping. Our founder, Mr Nwafor Benjamin Chidiebere who currently serves as
+                     President of the Association
+                     of Flower Nurseries and Landscaping Practitioners of Abuja (AFNALPA), brings valuable industry
+                     leadership and experience to our work. We combine horticultural expertise with architectural
+                     precision to create landscapes that are as functional as they are beautiful.
                  </p>
 
                  <p style="font-family: var(--font-body); font-size: 0.95rem; color: #777; line-height: 1.7; margin-bottom: 40px;"
